@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/Portfolio1/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+</head>
+<body >
+    <div class="alldropdown">
+        <a class="backHome" href="/index.html" role="button">Главная страница</a>
+        <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Меню</button>
+           <div id="myDropdown" class="dropdown-content">
+           <a href="#./slider/assets/index.html">Фотогалерея</a>
+           <a href="/Portfolio1/index.html">Портфолио</a>
+           <a href="/contact/index.html">Контакты</a>
+           </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <div class="slider">
+        <div class="photos">
+            <img class="slider-image show" src="/img/thumb__720_0_0_0_auto.jpg" alt=""
+            />
+            <img class="slider-image" src="/img/kurorty-krasnodarskogo-kraya.jpg" alt=""
+            />
+            <img class="slider-image" src="./img/wolfgang-hasselmann-Hyi-ZkhsnM8-unsplash.jpg" alt=""
+            />
+            <img class="slider-image" src="/img/sochi.jpg" alt=""
+            />
+        </div>
+
+        <div class="actions">
+            <input type="button" class="prev" value="Назад" />
+            <input type="button" class="next" value="Вперед" />
+        </div>        
+    </div>
+    <script src="./scrips.js"></script>
+    <footer>
+        <div class="container">
+            <p>© 2023 Рыбаков Аркадий. Веб-разработчик</p>
+        </div>
+        <div class="social">
+            <a class="gh" href="https://github.com/ArkadyRybakov/My_first_site"><img src="/Portfolio1/img/github-logo.png" alt="" width="8%" ></a>
+        </div>    
+      </footer>
+</body>
+</html>

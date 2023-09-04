@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/contact/style.css">
+    <link rel="stylesheet" href="/">
+    <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet">
+    <script type="text/javascript" charset="utf-8" async="" src="https://yandex.ru/maps/-/CDQsiUpf"></script>
+</head>
+<body>
+  <div class="alldropdown">
+    <a class="backHome" href="/index.html" role="button">Главная страница</a>
+    <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Меню</button>
+       <div id="myDropdown" class="dropdown-content">
+       <a href="/slider/index.html">Фотогалерея</a>
+       <a href="/Portfolio1/index.html">Портфолио</a>
+       <a href="#/contact/index.html">Контакты</a>
+       </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+  <div class="ContactInformation">
+    <form>
+        <div class="contactInfo">
+          <label for="exampleInputEmail1" class="form-label">Адрес электронной почты</label><br/>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу <br/>электронную почту.</div><br/>
+        </div>
+        <div class="contactInfo">
+          <label for="exampleInputPassword1" class="form-label">Пароль</label><br/>
+          <input type="password" class="form-control" id="exampleInputPassword1"><br/>
+        </div>
+        <div class="contactInfo form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Проверить меня</label><br/>
+        </div><br/>
+        <div class="contactInfo">
+            <label for="exampleFormControlTextarea1" class="form-label">Коменнтарий или сообщение</label><br/>
+            <textarea class="form-controlCom" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div><br/>
+        <button type="submit" class="btn btn-primary">Отправить</button>
+      </form>
+      <div style="position:relative;overflow:hidden;">
+        <a href="https://yandex.ru/maps/35/krasnodar/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Краснодар</a>
+        <a href="https://yandex.ru/maps/geo/krasnodar/53166138/?clid=1946562&ll=38.985679%2C45.066115&utm_medium=mapframe&utm_source=maps&z=12.17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Краснодар — Яндекс Карты</a>
+        <iframe src="https://yandex.ru/map-widget/v1/?clid=1946562&ll=38.985679%2C45.066115&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE2NjEzOBIg0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YAiCg255htCFVMkNEI%2C&z=12.17" width="600" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+      </iframe>
+    </div>
+  </div>
+
+  <footer>
+        <div class="container">
+            <p>© 2023 Рыбаков Аркадий. Веб-разработчик</p>
+        </div>
+        <div class="social">
+            <a class="gh" href="https://github.com/ArkadyRybakov/My_first_site"><img src="/Portfolio1/img/github-logo.png" alt="" width="8%" ></a>
+        </div>    
+      </footer>
+</body>
+</html>

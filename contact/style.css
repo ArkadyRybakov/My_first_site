@@ -1,0 +1,138 @@
+body {
+    background-color: rgb(160, 130, 100);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* -------------header----------------- */
+
+.backHome {
+    background-color: #2980B9;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration:none;
+}
+.backHome:hover, .backHome:focus {
+    background-color: #74099e;
+}
+
+.dropbtn {
+    background-color: #2980B9;
+    color: white;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #74099e;
+}
+
+.alldropdown {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2980B9;
+    min-width: 200px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: white; background-color: #74099e
+}
+
+.show {display:block;}
+
+/* --------------Обратная связь--------------- */
+
+
+.contactInfo {
+    color: black;
+    font-size: 150%;
+    
+}
+.form-text {
+    font-size: 70%;
+    color: rgba(0, 0, 0, 0.573);
+}
+
+.form-control {
+    height: 25px;
+    width: 300px;
+}
+
+.form-controlCom {
+    width: 300px;
+    height: 100px;
+}
+
+.btn {
+    height: 50px;
+    width: 300px;
+    background-color: #2980B9;
+    color: white;
+    min-width: 80px;
+    border-radius: 5px;
+    font-size: 120%;
+    z-index: 1;
+}
+
+.btn:hover, a:focus {
+    background-color: #74099e;
+    color: white;
+}
+
+.ContactInformation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+footer {
+    background-color: #2980B9;
+    position:fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Lugrasimo-Regular', serif;
+    left:0px;
+    bottom:0px;
+    height:70px;
+    width:100%;
+}
+
+.gh {
+    border-radius: 10px;
+}
+
